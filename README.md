@@ -308,11 +308,14 @@ Evaluation utilities are provided in:
 ```
 src/tot/evaluation/
 ```
+All scripts should be executed using `uv run` to ensure the correct
+Python version and dependencies are used.
+
 **Standard evaluation**
 
 Run:
 ```
-python evaluate_utils.py
+uv run evaluate_utils.py
 ```
 
 This script computes:
@@ -329,7 +332,7 @@ Evaluation results are printed to the console and saved as CSV and JSON files fo
 
 For the template-only baseline (`dtree.py`), run:
 ```
-python evaluate_dtree.py
+uv run evaluate_dtree.py
 ```
 
 In this evaluation:
