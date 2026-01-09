@@ -1,0 +1,33 @@
+[2025-12-07 19:50:17] Start Task: Method = bfs | Use Text = False
+[2025-12-10 15:18:06] Start Task: Method = bfs | Use Text = True
+[2025-12-11 12:36:45] Start Task: Method = dtree | Use Text = False
+[2025-12-11 12:36:50] Start Task: Method = dtree | Use Text = True
+[2025-12-11 12:36:56] Start Task: Method = cot | Use Text = False
+[2025-12-11 21:40:28] Start Task: Method = cot | Use Text = True
+[2025-12-12 07:11:32] Start Task: Method = bot | Use Text = False
+[2025-12-12 07:33:08] Start Task: Method = bot | Use Text = True
+[2025-12-12 07:43:34] Start Task: Method = pure_llm | Use Text = False
+[2025-12-12 09:42:16] Start Task: Method = pure_llm | Use Text = True
+[2025-12-12 11:54:03] All tasks finished.
+[2025-12-15 19:24:50] Start Task: Method = bfs | Use Text = False
+[2025-12-15 19:25:16] Start Task: Method = bfs | Use Text = True
+[2025-12-15 19:25:16] Start Task: Method = dtree | Use Text = False
+[2025-12-15 19:25:17] Start Task: Method = dtree | Use Text = True
+[2025-12-15 19:25:17] Start Task: Method = cot | Use Text = False
+[2025-12-15 19:25:17] Start Task: Method = cot | Use Text = True
+[2025-12-15 19:25:17] Start Task: Method = bot | Use Text = False
+[2025-12-15 19:25:17] Start Task: Method = bot | Use Text = True
+[2025-12-15 19:25:18] Start Task: Method = pure_llm | Use Text = False
+[2025-12-15 19:25:18] Start Task: Method = pure_llm | Use Text = True
+[2025-12-15 19:25:18] All tasks finished.
+[2026-01-09 04:39:57] Start Task: Method = bfs | Use Text = False
+[2026-01-09 04:39:57] Start Task: Method = bfs | Use Text = True
+[2026-01-09 04:39:58] Start Task: Method = dtree | Use Text = False
+[2026-01-09 04:39:58] Start Task: Method = dtree | Use Text = True
+[2026-01-09 04:39:58] Start Task: Method = cot | Use Text = False
+[2026-01-09 04:39:59] Start Task: Method = cot | Use Text = True
+[2026-01-09 04:39:59] Start Task: Method = bot | Use Text = False
+[2026-01-09 04:39:59] Start Task: Method = bot | Use Text = True
+[2026-01-09 04:39:59] Start Task: Method = pure_llm | Use Text = False
+[2026-01-09 04:40:00] Start Task: Method = pure_llm | Use Text = True
+[2026-01-09 04:40:00] All tasks finished.
