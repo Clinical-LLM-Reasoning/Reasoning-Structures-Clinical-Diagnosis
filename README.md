@@ -1,3 +1,28 @@
+## Environment Setup
+
+This project uses `pyproject.toml` to define all dependencies.
+We recommend using **uv** for fast and reproducible environment management.
+
+### Setup with `uv` (Recommended)
+
+Install `uv` following the official instructions:
+https://github.com/astral-sh/uv
+
+Then, from the project root, run:
+
+```bash
+uv sync
+```
+This command will:
+
+- Create a virtual environment automatically
+
+- Install all dependencies specified in `pyproject.toml`
+
+- Ensure consistent environments across platforms
+
+All commands in this README assume the environment has been set up using `uv`.
+
 ## Data Preparation (MIMIC-IV)
 
 This repository does **not** distribute any clinical data.  
@@ -334,6 +359,18 @@ Supported backends include:
 The backend provider and model name can be configured directly in `models.py.`
 
 Ensure the selected backend is running and accessible before launching any LLM-based scripts.
+
+
+### API Key Configuration
+
+If you use a remote LLM backend (e.g., OpenAI-compatible APIs),
+you must configure **your own API key** in the following file:
+
+- `src/tot/llm_call_api.py`
+
+**Important**
+The API key is **not provided** with this repository and must be supplied by the user.
+It must **not** be committed to version control.
 
 ### 11. Reproducibility Notes
 
